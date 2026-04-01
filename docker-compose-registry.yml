@@ -1,6 +1,6 @@
 services:
     pozos-registry:
-        image: registry:3.8.1
+        image: registry
         container_name: pozos-registry
         restart: always
         volumes:
@@ -29,7 +29,7 @@ services:
             - DELETE_IMAGES=true
             - REGISTRY_TITLE=Pozos
             - SINGLE_REGISTRY=true
-        networks!
+        networks:
             - pozos-registry-network
 networks:
     pozos-registry-network:
