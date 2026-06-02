@@ -6,7 +6,7 @@
 
 ## 📋 Description
 
-Ce projet consiste à :
+ Ce projet consiste à :
 
 1. **Construire une image Docker** d'une API Python simple (`api:v1.0`) qui expose des données sur les âges des étudiants.
 2. **Exécuter l'API dans un conteneur Docker** avec un volume monté pour les données.
